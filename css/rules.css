@@ -1,0 +1,29 @@
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "header header"
+    "rules rules";
+  margin: 0 2rem;
+}
+
+.rules {
+  grid-area: rules;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 5rem 15rem;
+  font-size: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.rules {
+  border: 1px solid var(--COLOR-SECONDARY);
+}
+
+.rules > ol > li {
+  padding: 0.5rem;
+}
