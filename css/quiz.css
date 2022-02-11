@@ -4,7 +4,7 @@
   grid-template-areas:
     "header header"
     "quiz quiz";
-  margin: 0 10rem;
+  margin: 0 2rem;
 }
 
 .quiz {
@@ -12,7 +12,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5rem 15rem;
+  margin: 5rem 20rem;
   gap: 1rem;
   border: 1px solid var(--COLOR-SECONDARY);
   padding: 2rem;
