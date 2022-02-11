@@ -1,10 +1,9 @@
 .grid-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "header header header"
-    "... result ...";
-  margin: 0 2rem;
+    "... main-result ...";
+  gap: 2rem;
 }
 
 .result,
@@ -15,8 +14,11 @@
     flex-direction: column;
 }
 
+.main-result {
+grid-area: main-result;
+}
+
 .result {
-  grid-area: result;
   align-items: center;
 }
 
