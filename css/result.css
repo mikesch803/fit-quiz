@@ -44,6 +44,11 @@ grid-area: main-result;
   display: none;
 }
 
+
+.btn-primary:hover {
+  background-color: var(--COLOR-PRIMARY);
+}
+
 .correct-ans,
 .correct-ans:hover {
   background-color: var(--BG-SUCCESS);
