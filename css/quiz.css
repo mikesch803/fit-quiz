@@ -29,6 +29,7 @@
 .quiz-option {
   padding: 1rem 15rem;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .options {
