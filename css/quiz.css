@@ -1,23 +1,31 @@
 .grid-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "header header"
-    "quiz quiz";
-  margin: 0 2rem;
+    "header header header"
+    "... main-quiz ...";
+  gap: 2rem;
+}
+
+.main-quiz,
+.quiz {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-quiz {
+  grid-area: main-quiz;
+  padding: 5rem;
 }
 
 .quiz {
-  grid-area: quiz;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 5rem 20rem;
   gap: 1rem;
   border: 1px solid var(--COLOR-SECONDARY);
   padding: 2rem;
-  border-radius: 10px;
-  flex-wrap: wrap;
+  border-radius: 10px; 
+  max-width: 46rem;
 }
 
 .quiz-sub-heading {
@@ -35,3 +43,4 @@
 .options {
   display: none;
 }
+
