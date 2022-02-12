@@ -1,11 +1,10 @@
 .grid-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-template-areas:
     "header header"
     "main-left main-right"
     "section-bottom section-bottom";
-  margin: 0 2rem;
+  gap: 2rem;
 }
 
 .main-left,
