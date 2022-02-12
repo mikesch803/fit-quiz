@@ -1,10 +1,9 @@
 .grid-layout {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   grid-template-areas:
-    "header header"
-    "rules rules";
-  margin: 0 2rem;
+    "header"
+    "rules";
+  gap: 2rem;
 }
 
 .rules {

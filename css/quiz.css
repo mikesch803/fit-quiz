@@ -30,12 +30,14 @@
 
 .quiz-sub-heading {
   display: flex;
-  gap: 20rem;
+  justify-content: space-between;
+  width: 100%;
   flex-wrap: wrap;
 }
 
 .quiz-option {
-  padding: 1rem 15rem;
+  padding: 1rem;
+  width: 100%;
   border-radius: 5px;
   cursor: pointer;
 }
@@ -44,3 +46,6 @@
   display: none;
 }
 
+.btn-submit {
+  margin: 1rem;
+}
