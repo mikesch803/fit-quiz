@@ -24,7 +24,7 @@
   gap: 1rem;
   border: 1px solid var(--COLOR-SECONDARY);
   padding: 2rem;
-  border-radius: 10px; 
+  border-radius: var(--BORDER-RADIUS); 
   max-width: 46rem;
 }
 
@@ -38,7 +38,7 @@
 .quiz-option {
   padding: 1rem;
   width: 100%;
-  border-radius: 5px;
+  border-radius: var(--BORDER-RADIUS);
   cursor: pointer;
 }
 

@@ -73,3 +73,7 @@
 .btn-link {
   text-transform: capitalize;
 }
+
+.navbar-title {
+  color: var(--COLOR-PRIMARY);
+}

@@ -14,3 +14,6 @@ html {
     padding: 1.5rem;
   }
   
+  .navbar-title {
+    color: var(--COLOR-PRIMARY);
+  }
